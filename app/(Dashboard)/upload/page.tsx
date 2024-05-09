@@ -35,7 +35,7 @@ export default function Page() {
   };
   return (
     <div className="flex w-full  justify-center items-center flex-col  ">
-      <div className="md:w-[596px] w-[328px] md:h-[367px] h-[352px] flex flex-col gap-3 bg-white justify-center items-center rounded-lg">
+      <div className="md:w-[596px] w-[328px] max-w-xl md:h-[367px] h-[352px] flex flex-col gap-3 bg-white justify-center items-center rounded-lg">
         <form
           action=""
           onSubmit={handleSubmit(handleFileUpload)}

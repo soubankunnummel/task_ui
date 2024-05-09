@@ -44,11 +44,11 @@ export default function Nave() {
               <li>
                 <a>Item 1</a>
               </li>
+             <li >
              <Link href={'/SignIn'}>
-             <li>
-                <a>Log out</a>
-              </li>
+                <span>Log out</span>
              </Link>
+              </li>
             </ul>
           </div>
         </div>

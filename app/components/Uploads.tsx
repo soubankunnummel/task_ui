@@ -31,7 +31,7 @@ export default function Uploads({ data }:UploadsProps) {
           <tr className="border-b-0 border-t  bg-white h-[58px] rounded-[12px] flex justify-between mb-3   items-center "key={index}>
             <th>{index+1} </th>
             <th> 
-            <a className=" link" href={item.links} target="_blank" rel="noopener noreferrer">{item.links}</a>
+            <a className=" link" href={`https://www.${item.links}`} target="_blank" rel="noopener noreferrer">{item.links}</a>
             </th>
             <th>{item.prefix} </th>
             <th>
