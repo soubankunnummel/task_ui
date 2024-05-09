@@ -16,7 +16,7 @@ export default function Layout({
         {/* Navbar */}
         <Nave />
         {/* Main Content */}
-        <div className="flex-1 overflow-auto">{children}</div>
+        <div className="w-full">{children}</div>
       </div>
     </div>
   );

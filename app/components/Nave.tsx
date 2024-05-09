@@ -6,6 +6,7 @@ import Image from "next/image";
 import Logo from "@/public/images/Logo and company (2).png";
 import Threeline from "@/public/svg/threline.svg";
 import Droyer from "./Droyer";
+import Link from "next/link";
 
 export default function Nave() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -43,9 +44,11 @@ export default function Nave() {
               <li>
                 <a>Item 1</a>
               </li>
-              <li>
-                <a>Item 2</a>
+             <Link href={'/SignIn'}>
+             <li>
+                <a>Log out</a>
               </li>
+             </Link>
             </ul>
           </div>
         </div>

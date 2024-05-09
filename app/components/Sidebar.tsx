@@ -10,7 +10,7 @@ import Setings from "./sideBar/Setings";
 import Notification from "./sideBar/Notification";
 import Link from "next/link";
 
-export default function Sidebar() {
+export default function Sidebar() { 
   return (
     <div className="bg-white   md:flex hidden flex-col  items-center h-screen  w-[218px] p-3 gap-10 ">
      <Link href={'/'} >
@@ -18,7 +18,7 @@ export default function Sidebar() {
         <Image alt="Log&Compuny" src={Logo} />
       </div>
       </Link>
-      <div className="flex flex-col gap-y-5">
+      <div className="flex flex-col h-full   gap-y-7">
         <Link href={'/'}>
         <div className="h-[24px] flex items-center gap-2  cursor-pointer ">
           <DashBord />
