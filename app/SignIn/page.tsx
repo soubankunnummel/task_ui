@@ -90,7 +90,7 @@ export default function page() {
           </form>
         </div>
         <h3 className="mt-1">
-          Don't have an account?
+          Don&apos;t have an account?
           <span className="text-[#346BD4]  "> Register here</span>
         </h3>
       </div>
